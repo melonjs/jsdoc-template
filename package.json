@@ -11,10 +11,10 @@
    "tmpl",
    "publish.js"
  ],
-  "authors": [
-      "name": "Olivier Biot",
-      "email": "contact@melonjs.org"
-  ],
+ "author": {
+   "name": "Olivier Biot",
+   "email": "contact@melonjs.org"
+ },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -40,5 +40,8 @@
     "gulp-connect": "^5.0.0",
     "gulp-jsdoc3": "^1.0.1",
     "jsdoc": "^3.5.3"
+  },
+  "scripts": {
+   "release": "npm publish --access public"
   }
 }
