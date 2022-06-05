@@ -1,0 +1,44 @@
+{
+  "name": "jsdoc-template",
+  "version": "2.0.0",
+  "description": "melonJS JSDoc Template",
+  "main": "publish.js",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "files": [
+   "static",
+   "tmpl",
+   "publish.js"
+ ],
+  "authors": [
+      "name": "Olivier Biot",
+      "email": "contact@melonjs.org"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melonjs/jsdoc-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melonjs/jsdoc-template/issues"
+  },
+  "keywords": [
+    "jsdoc",
+    "jsdoc3",
+    "jsdoc-template",
+    "template",
+    "melonJS",
+    "melons.js"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jsdoc3": "^1.0.1",
+    "jsdoc": "^3.5.3"
+  }
+}
