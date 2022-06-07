@@ -14,6 +14,6 @@ npm install @melonjs/jsdoc-template --save-dev
 
 ```
 "opts": {
-    "template": "node_modules/@melonjs/jsdoc-template"
+    "template": "./node_modules/@melonjs/jsdoc-template"
 }
 ```
